@@ -146,6 +146,7 @@ h1, h2, #logo {
 #logo {
 	display: block;
 	width: 800px;
+	height:39px;
 	background-image: url('logo-37s-large.png');
 	background-position: center;
 	background-repeat: no-repeat;
