@@ -111,8 +111,8 @@ li {
 	color:#369;
 }
 
-#header, h1, h2 {
-	min-width: 800px;
+h1, h2, #logo {
+	min-width: 500px;
 }
 
 #header {
@@ -146,6 +146,7 @@ li {
 #logo {
 	display: block;
 	width: 164px;
+	padding: 0px 200px 0px 200px;
 	position: relative;
 	margin: 30px auto 20px auto;
 }
