@@ -148,6 +148,7 @@ h1, h2, #logo {
 	width: 800px;
 	background-image: url('logo-37s-large.png');
 	background-position: center;
+	background-repeat: no-repeat;
 	position: relative;
 	margin: 30px auto 20px auto;
 }
