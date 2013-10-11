@@ -5,6 +5,8 @@
 	<title>37 signals: Web-based collaboration apps for small business</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type='text/javascript' src='application.js'></script>
 </head>
 
 <body>
@@ -28,22 +30,27 @@
 </div>
 
 <div id="logo">
-	<!-- <img src="logo-37s-large.png" alt="37 Signals"> -->
-</div>
+<img src="arrow-left.png" class="arrow-img" id="arrow-bc" alt="arrow">
+<img src="arrow-left.png" class="arrow-img" id="arrow-hr" alt="arrow">
+<img src="arrow-right.png" class="arrow-img" id="arrow-cf" alt="arrow">
 
+</div>
+<div id="headline">
 <h1>Making collaboration productive and enjoyable for people every day.</h1>
 <h2>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h2>
+</div>
 <div id="products">
 <a href="">
-	<div class="product">
+	<div class="product" id="bc">
 		<img src="logo-bc.png" alt="Basecamp">
+		
 		<h3>Basecamp</h3>
 		<h4>Manage Projects</h4>
 		<h5>Used by millions for project management.</h5>
 	</div>
 </a>
 <a href="">
-	<div class="product">
+	<div class="product" id="hr">
 		<img src="logo-hr.png" alt="Highrise">
 		<h3>Highrise</h3>
 		<h4>Manage Contacts</h4>
@@ -51,7 +58,7 @@
 	</div>
 </a>
 <a href="">
-	<div class="product">
+	<div class="product" id="cf">
 		<img src="logo-cf.png" alt="Campfire">
 		<h3>Campfire</h3>
 		<h4>Work in Real-Time</h4>

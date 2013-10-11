@@ -60,6 +60,10 @@ body {
 	background: white;
 }
 
+#headline {
+	height: 156px;
+}
+
 h1 {
 	font-family: "Times New Roman", serif;
 	width: 70%;
@@ -82,6 +86,33 @@ h2 {
 	line-height: 1.0em;
 	letter-spacing: -1px;
 	color: #232323;
+}
+
+span {
+	color:#369;
+	text-decoration: underline;
+}
+
+#small-h1 {
+	font-family: "Times New Roman", serif;
+	width: 70%;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	font-weight: 550;
+	font-size: 50px;
+	line-height: 1em;
+	letter-spacing: -2px;
+	color: #232323;
+	margin-bottom: 0px;
+} 
+
+#small-h2 {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: "Helvetica", sans-serif;
+	vertical-align: text-top;
+	position: relative;
+	top: -10px;
 }
 
 li {
@@ -159,6 +190,35 @@ h1, h2, #logo {
 	width: 670px;
 	margin:30px auto 20px auto;
 	/* border: 1px solid black; */
+}
+
+/* .arrow {
+	position: relative;
+	display: block;
+	width: 0px;
+	height: 0px;
+	top:-180px;
+	left:100px;
+} */
+
+.arrow-img {
+
+	display: inline-block;
+	position: relative;
+	z-index:1;
+	top:210px;
+}
+
+#arrow-bc {
+	left:220px;
+}
+
+#arrow-hr {
+	left:440px;
+}
+
+#arrow-cf {
+	left:515px;
 }
 
 #products img {
